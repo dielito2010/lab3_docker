@@ -22,10 +22,10 @@ build:
       with:
         context: ./
         push: true
-        dockerfile: ./Dockerfile # Specify the path to your Dockerfile
+        #dockerfile: ./Dockerfile
         tags: dielito2010/webacademy:latest
 deploy:
   runs-on: ubuntu-latest
   steps:
-    - name: Fazendo deploy
-      run: echo "Deploy com sucesso!"
+  - name: Fazendo deploy
+    run: echo "Deploy com sucesso!"
